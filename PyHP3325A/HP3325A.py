@@ -50,9 +50,9 @@ class HP3325A:
                     self.command = command
             Vp = _U('VO')
             mV = _U('MV')
-            Vrms: _U('VR')
-            mVrms: _U('MR')
-            dBm: _U('DB')
+            Vrms= _U('VR')
+            mVrms= _U('MR')
+            dBm= _U('DB')
 
         class Offset:
             class _U:
